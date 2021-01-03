@@ -1,12 +1,11 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
-
 # Operationalizing Machine Learning
 
 This project leverages the familiar bank marketing dataset and Azure AutoML to train machine learning models. The model with the most accuracy is then deployed as an endpoint as an Azure Container Instance. Through this Azure Container Instance, an authenticated REST endpoint is used to access the model with an API documented via Swagger. 
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+![Architectural Diagram](./diagram.PNG)
+
+From this diagram, we see that our initial input is the Bank Marketing dataset, which gets fed into both a Jupyter Notebook for the pipeline and directly into AutoML as a registered dataset. AutoML runs on a compute cluster and outputs both a best model and a pipeline endpoint. The best model then gets deployed as an Azure Container Instance endpoint. From our endpoint, we get API Documentation via Swagger, logging via Application Insights, and performance metrics via Apache benchmark. At the end, users interact with our model through either the pipeline endpoint, or the Azure Container instance. They also interact with the API, logs, and performance metrics. 
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps.
