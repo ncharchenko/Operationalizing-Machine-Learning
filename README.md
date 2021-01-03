@@ -11,7 +11,7 @@ This project leverages the familiar bank marketing dataset and Azure AutoML to t
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps.
 
-1. Make sure our dataset is registered in ML Studio. ![Image of Registered Dataset] (screenshots/registered_dataset.PNG)
+1. Make sure our dataset is registered in ML Studio. ![Image of Registered Dataset](./screenshots/registered_dataset.PNG)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
