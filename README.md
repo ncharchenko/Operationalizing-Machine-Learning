@@ -40,9 +40,7 @@ This project leverages the familiar bank marketing dataset and Azure AutoML to t
 ![Pipeline Running from Endpoint](./screenshots/run_from_endpoint.PNG)
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-
 http://youtube.com/watch?v=3mpS5lkeZNE/
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+As shown in Step 8, I performed the benchmark step, which was a standout step for this project.
