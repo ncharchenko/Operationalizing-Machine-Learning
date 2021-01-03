@@ -15,7 +15,29 @@ This project leverages the familiar bank marketing dataset and Azure AutoML to t
 
 2. Run AutoML experiment on our compute clusters (classification with best model measured by accuracy metric). ![Completed Experiment](./screenshots/experiment_completed.PNG)
 
-3. 
+3. Once the experiment completes, we can see the best-performing model. ![Image of Best Model](./screenshots/best_model.PNG)
+
+4. We now deploy this best model as an endpoint with Azure Container Instance (ACI) ![Deployed Model] (./screenshots/best_model_deployed.PNG)
+
+5. Enable logging (Application Insights) and view logs. ![Logging and insights] (./screenshots/insights_and_logs.PNG)
+
+6. Now that we've enabled logging, we can use Swagger to show the API. ![Swagger](./screenshots/swagger.PNG)
+
+7. Using this API, we can use this endpoint. ![Endpoint](./screenshots/endpoint.PNG)
+
+8. As an extra step, we use Apache to benchmark our endpoint. ![Benchmark](./screenshots/benchmark.PNG)
+
+9. We then use a Jupyter notebook to train and deploy an AutoML model as a pipeline. ![Pipeline](./screenshots/pipeline.PNG)
+
+10. Here, we see the pipeline running. Note that the Bank Marketing dataset is present and registered before being passed into the AutoML module. ![Running Pipeline](./screenshots/pipeline_running.PNG)
+
+11. We then wait for the pipeline to complete before deploying it as an endpoint. We can also run the pipeline through the endpoint much like with our previous AutoML model. ![Finished Pipeline](./screenshots/pipeline_finished.PNG)
+
+![Pipeline Endpoint](./screenshots/pipeline_endpoint.PNG)
+
+![Notebook](./screenshots/rundetails_notebook.png)
+
+![Pipeline Running from Endpoint](./screenshots/run_from_endpoint.PNG)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
