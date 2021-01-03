@@ -13,6 +13,10 @@ This project leverages the familiar bank marketing dataset and Azure AutoML to t
 
 1. Make sure our dataset is registered in ML Studio. ![Image of Registered Dataset](./screenshots/registered_dataset.PNG)
 
+2. Run AutoML experiment on our compute clusters (classification with best model measured by accuracy metric). ![Completed Experiment](./screenshots/experiment_completed.PNG)
+
+3. 
+
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
