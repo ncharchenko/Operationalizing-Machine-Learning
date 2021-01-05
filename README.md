@@ -40,3 +40,6 @@ From this diagram, we see that our initial input is the Bank Marketing dataset, 
 
 ## Screen Recording
 http://youtube.com/watch?v=3mpS5lkeZNE/
+
+## Improvements
+In order to improve this project in the future, we can employ deep learning, ensure a balanced dataset before training, and evaluate the best model by different metrics or even more than one metric.
