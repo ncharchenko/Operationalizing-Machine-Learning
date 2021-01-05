@@ -39,7 +39,7 @@ From this diagram, we see that our initial input is the Bank Marketing dataset, 
 ![Pipeline Running from Endpoint](./screenshots/run_from_endpoint.PNG)
 
 ## Screen Recording
-http://youtube.com/watch?v=3mpS5lkeZNE/
+https://youtu.be/8isEdT9vKdo
 
 ## Improvements
 In order to improve this project in the future, we can employ deep learning, ensure a balanced dataset before training, and evaluate the best model by different metrics or even more than one metric.
