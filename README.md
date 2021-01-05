@@ -34,6 +34,8 @@ From this diagram, we see that our initial input is the Bank Marketing dataset, 
 
 ![Pipeline Endpoint](./screenshots/pipeline_endpoint.PNG)
 
+![Pipeline REST](./screenshots/rest_pipeline.PNG)
+
 ![Notebook](./screenshots/notebook.PNG)
 
 ![Pipeline Running from Endpoint](./screenshots/run_from_endpoint.PNG)
